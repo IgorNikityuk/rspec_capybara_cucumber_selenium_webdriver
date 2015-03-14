@@ -33,4 +33,3 @@ end
 # end
 
 Capybara.default_wait_time = 5
-Capybara.ignore_hidden_elements = false

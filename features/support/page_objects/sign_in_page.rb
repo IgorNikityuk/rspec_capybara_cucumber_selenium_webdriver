@@ -10,8 +10,8 @@ class SignInPage
 
 	def fill_fields_for user
 		case user
-		when "Regular"  then user_credentials = { email: "", password: "" }
-		when "Business" then user_credentials = { email: "",   password: "" }
+		when ""  then user_credentials = { email: "", password: "" }
+		when "" then user_credentials = { email: "",   password: "" }
 		end
 		
 		fill_in "email", 		:with => user_credentials[:email]
